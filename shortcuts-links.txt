@@ -44,6 +44,7 @@ Ctrl + Enter : make cursor to move to next line
 ul>li*6 : create 6 li tag lines inside one ul tag
 ul>(li+a)*6 : create 6 li in one line & anchor tags in next line to li tag line inside a ul tag
 ul>li*6>a : create 6 li & anchor tags inside a ul tag -> called as 'Emmet'
+(tr>td*18 -rows)*10 - columns in periodic table 10 rows & 18 columns
 
 --------
 💡NOTES

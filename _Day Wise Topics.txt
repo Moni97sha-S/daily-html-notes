@@ -2,11 +2,16 @@
 18th Apr Topics
 ----------------
 ⏹ Tables
-⏹ 
-⏹ 
-⏹ 
-⏹
-⏹
+⏹ th (table head)
+     > tr (table row)
+       > td (table data)
+       
+⏹ 'caption' tag used for heading of a table
+⏹ In HTML5, thead, tbody, tfoot: th tag is used till html4 while fetching data according to speed if foot part reached before head part then foot will become head 
+⏹ Rowspan used for merging 2 rows together
+⏹ Colspan used for merging 2 colums together
+⏹ Assignment 2
+⏹ Q & A session
 ⏹
 
 Ask doubt from checkbox & radio: how to add required in input tags 
