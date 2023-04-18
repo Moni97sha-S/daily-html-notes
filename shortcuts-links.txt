@@ -1,0 +1,60 @@
+HTML Classes content will go here.
+
+-------
+ LINKS
+-------
+5th Apr (HTML)
+
+PPT-1:
+https://docs.google.com/presentation/d/1QRy1Y8AjWaodD2kkQPKjcOOFXcUi0KAUdE6zg-kDW9s/edit#slide=id.g212e9a1dfda_0_0
+
+PPT-2:
+https://docs.google.com/presentation/d/1jAyAEsduMUbPO5PKUFNYpAd3iqxyEd6xv7REANr656k/edit#slide=id.p1
+
+Image Placeholder:
+https://placehold.co/
+
+Portfolio:
+https://justdecodeme.github.io/portfolio/
+
+Class Files:
+https://github.com/justdecodeme/edyoda-classes/tree/master/FSR310323
+
+-----------
+ SHORTCUTS
+-----------
+Ctrl + z > Undo
+Ctrl + [ > Move code to left side
+Ctrl + ] > Move code to right side
+Win + .  > Smily window
+<!--Duplicate a line multiple times lines (need to select)-->
+Alt + Shift + ⬇ > Copy and move code to one line down
+Alt + Shift + ⬆ > Copy and move code to one line up
+! + Tab/Enter > Create HTML skeleton
+Alt + ⬇ > Move line down
+Alt + ⬆ > Move line up
+Starting letter of tag + Tab > Automatically open & close tags 
+<!-- If it is 1 line then no need to select just keep ur cursor in that line; Select for multiple lines & then -->
+Ctrl + / > Toggle comments [HTML, CSS, JS] (comment & uncomment)
+Ctrl + d > Select next highlighted & Ctrl + c & Ctrl v
+Win + Arrow keys for parallel screen in Win 10
+Ctrl + d Select whole word & replace it with backspace
+Ctrl+d & ctel+d & ctrl+d then type simueltaneously
+Ctrl + Enter : make cursor to move to next line
+ul>li*6 : create 6 li tag lines inside one ul tag
+ul>(li+a)*6 : create 6 li in one line & anchor tags in next line to li tag line inside a ul tag
+ul>li*6>a : create 6 li & anchor tags inside a ul tag -> called as 'Emmet'
+
+--------
+💡NOTES
+--------
+&nbsp; > means non-breaking space, code for adding one single space in html
+type: 'Lorem' to bring dummy paragraph text
+
+⭐Don't try to remember the code, understand the logic
+
+<hr /> ✅
+<hr>lsjdffsd</hr> ❌
+
+VS CODE > Editing
+Browser > Rendering

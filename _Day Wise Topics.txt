@@ -1,0 +1,233 @@
+----------------
+18th Apr Topics
+----------------
+⏹ Tables
+⏹ tasks
+⏹ dfsdgdfg
+⏹
+⏹
+⏹
+⏹
+
+Ask doubt from checkbox & radio: how to add required in input tags 
+
+
+----------------
+17th Apr Topics
+----------------
+⏹ Whole GitHub Class
+   - Sign up
+   - Log In
+   - Create a Repository (only small characters & hyphen can be used to name a repository)
+      > private / public can be changed later too in danger zone
+      > Public (Code can be accessed by anyone, you can createlive url) 
+      > Private (code is private, complete ur control to whom to share | u can't create live url, unless you purchase github paid plan)
+      > ReadMe file is when we work in a team for a project or big projects
+   - Upload files
+   - Make repo live (Creating a link/url to share)
+      > How to rename the files
+      > Update files
+      > Delete a repo
+   - GitHub desktop (Manage multiple projects at a time)
+      > Create a repo on github.com
+      > Clone it on ur system
+      > Make any changes (add/delete/update/rename)
+      > Commit ur changes
+      > Pushes
+   - Q & A Session
+
+⏹ How to share output as well using Live server
+
+----------------
+14th Apr Topics
+----------------
+⏹ Quiz 1 due today
+⏹ Live YouTube Session
+⏹ Doubt Session (10-15 mins)
+⏹ Practice (30 mins)
+⏹ Code Review (10-15 mins)
+⏹ Q & A session
+- If img is not visible to the user at that time alt is useful for user to know about what img it is
+- img tag alt attribute is for alternate text on image if img url path is wrong atleast we could know img is about what
+- To come out of folder in order to access img outside the html's folder use "../"
+
+
+Why you should not use Google drive for assignment submissions:
+Difference between google drive link & github link
+- Download each file
+- asset links (img) will break while using live server in google drive
+- according to ur upload type like absolute or relative URL 
+- u can't share ur 100% effort
+- In GD, you can't update the code/folder without changing the link
+
+----------------
+13th Apr Topics
+----------------
+⏹ Live Server
+⏹ Forms
+    - select + option + optgroup | required, label
+    - input + datalist + option | required, list, id, value
+    - fieldset + legend
+    - radio vs checkbox
+⏹ Forms Practice
+⏹ Q & A Session
+----------------
+12th Apr Topics
+----------------
+⏹ How many of you went through PPTs?
+⏹ Assignment 1 REMINDER | 11:59 PM Today
+⏹ Quiz 1 REMINDER
+⏹ Whatsapp link
+⏹ Forms
+   ✅ What are forms?
+   ✅ form | action, method,
+   ✅ input | types (text, email,number, password, date, color, file, radio, checkbox, range), 
+      placeholder, value, read-only, id, autofocus, required, name
+          - Placeholder means light colored text in text box
+          - Readonly means no changes can be made by user
+          - Auotfocus means make user's cursor to focus on/highlights the border of an important field
+   ✅ label | for
+   ✅ button | disabled, type(submit)
+   - text vs email attribute
+   - textarea | rols, cols, required
+   <!-- Select Tag used for dropdown -->
+   - select + option + optgroup | required, label
+   - input + datalist + option | required, list, id, value
+   - fieldset + legend
+⏹ Q & A Session
+
+radio, checkbox, 
+
+----------------
+11th Apr Topics
+----------------
+⏹ Quiz 1 walkthrough
+⏹ br tag > break tag
+⏹ <!DOCTYPE html> : Means we are latest version of HTML i.e. HTML5
+⏹ meta > Search Engine Optimization (SEO) and providing extra information to the browser
+⏹ HTML Comments > <!-- _____ --> reference to the developer, unused code
+⏹ HTML Features from PPT-1: In css, (SVG) Scalable Vector Graphic images are crisp, clear & sharp 
+   even after zoom than .png, .jpg etc used mostly in logos.
+                  <!-- HTML 5 tags -  Older version of HTML tags -->
+⏹ HTML semantic tags: <header> - <div class ="header">, 
+                       <nav> - <div id ="menu">, 
+                       <article> - <div class ="post"> & 
+                       <footer> - <div class ="footer">
+⏹ Assignment 1 walkthrough
+⏹ Live session and link
+⏹ How to upload assignment
+⏹ Q & A session
+
+// 04-11-quiz1-overview.html
+ul - unordered list (bullet-in) 
+ol - ordered list (numbered)
+<hr /> - make a line at header section under <h1> tag if u mention this tag
+<br /> - break tag (to break a paragraph into small lines)
+In CSS,
+<style> tag inside head tag
+<nav> --- </nav> for navigation among the pages (top blocks).
+Difference between svg (Scale vector graphic) & jpg?
+❣ html5 semantic tags (80:20 law)
+shortcut: Alt + ⬆ (move a line up)
+          Alt + ⬇ (move a line down)
+          shift + ! + tab/Enter (to get html skeleton : doctype)
+          ctrl + / (comment & uncomment)
+----------------
+07th Apr Topics
+----------------
+⏹️ Empty elements: 
+   - hr means horizontal
+   - img means image tag <img />
+   - br
+   - Meta
+   - input
+⏹ img tag 
+   ✔ src is source called as attribute similar to <a> tag's href
+⏹ align = "center" ---> name = "value" in attribute <a> tag
+⏹ <center> </center> is not supported in HTML5
+⏹ <div align="center"> </div> div tag is used to group some items.
+⏹ # means internal links & within the same page
+⏹ How to add smooth scrolling using css?
+   - Inside Head section, under Title section, add <style> tag from CSS
+----------------
+06th Apr Topics
+----------------
+⏹️ Share code files
+⏹️ HTML basics
+   - syntax
+   - open tag
+   - contents : Text between the open & close tags
+   - close tag
+   - element
+   - attributes (name:"value") : whatever we write inside open tag; extra information
+   - formating
+⏹️ Basic tags 
+   - html, head, body, 
+   - h1-h6 (Heading in Descending sizes), 
+   - p (paragraph), 
+   - ul (unordered list), 
+   - ol (ordered list), 
+   - li (list items) always used within ul or ol tags, 
+   - a (anchor tag ; inside open tags), href (hyperlink reference)
+⏹️ Q & A session
+
+   - html (Hyper Text Markup Language): tells that it is a html code ; structure, context 
+         Hyper Text means going from one place to another
+         Markup means what we write & the way of writing
+   - css (Cascading StyleSheet): SEO, Meta data; color, alignment, style
+   - js (JavaScript): content which is visible to user ; validation, interaction
+
+----------------
+05th Apr Topics
+----------------
+⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ 
+⚠️ ALWAYS NAME YOUR FILES & FOLDER WITH SMALL LETTERS ONLY! - _ 0-9
+⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ 
+✅ Share the PPT links
+✅ How to import file or folder to VS Code
+✅ https://www.justdecode.me/connect/
+✅ FEEDBACK
+✅ PRACTICE*♾️
+✅ GitHub Intro | project/code management
+✅ Launching first webpage
+✅ Share the code
+✅ File & Folder naming convension
+✅ Q & A session
+
+----------------
+04th Apr Topics
+----------------
+✅ Introduction
+    - Check MIC & Screen 🎤
+    - English, Hindi | Punjabi, Odisha | Japanese... 🗣️
+    - Little bit about your instructor background 😜
+    - Please connect to the same link in case of internet issue 📶
+    - Turn off camera and mute 📸
+    - Always clear your doubts before leaving the session 🙋‍♂️🙋‍♀️
+    - 100% attendance & I'll make 200% effort 💪
+    - From tomorrow, I'll play some music before 5 min of the class 🎶
+    - Always join on/before time ⌚
+    - FEEDBACK IS MUST 📝
+    - Be polite and respecting each other skill level 🙌
+✅ Course structure | Full Stack > Front End + Back End
+✅ Requirements
+   - Code Editor Setup (VS Code)
+   - Browser Setup (Chrome)
+   - LLL MINDSET
+✅ Basics of WEB DEVLOPMENT (full form, purpose, filename extension)
+   - Webpage > any url on browser
+   - Web Development > process of creating these web pages is called web development
+   - HTML (HyperText Markup Language) > content | .html
+   - CSS (Cascading StyleSheet) > color, layout, alignment | .css
+   - JS (JavaScript) > validation, interaction, dynamic | .js
+   - MASTER THESE THINGS, YES PLEASE MASTER THESE 3 THINGS
+   - Web Designin (creating mockups)g vs Web Development
+✅ Creating our 1st HTML file
+    - Create a .txt document then rename it to index.html
+✅ Watch recordings
+✅ FEEDBACK
+✅ TA (Athira) will join us at 9:15pm
+✅ Q & A session
+
+Filename extensions: resume.pdf, song1.mp3, movie1.mp4
+.jpg, .png, .txt, .cpp, .docx, .exe, .psd, .ai,
