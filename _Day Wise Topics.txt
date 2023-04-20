@@ -1,4 +1,29 @@
 ----------------
+20th Apr Topics
+----------------
+⏹ Remaining HTML tags
+   - Formatting tags
+   - Canvas using with help of JS
+   - SVG: Scalar Vector Graphics is an image format
+⏹ HTML Practice
+⏹ Assignment 2 Discussion
+⏹ Q & A Session
+
+----------------
+19th Apr Topics
+----------------
+⏹ Multimedia Tags
+⏹ img
+    - Audio tag
+    - Video tag
+    - iframe tag
+⏹ Assignment 2 discussion
+   - div tag to group big & span tag is used to small in that big
+⏹
+⏹ Q & A Session
+
+
+----------------
 18th Apr Topics
 ----------------
 ⏹ Tables

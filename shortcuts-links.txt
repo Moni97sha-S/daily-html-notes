@@ -23,9 +23,9 @@ https://github.com/justdecodeme/edyoda-classes/tree/master/FSR310323
 -----------
  SHORTCUTS
 -----------
-Ctrl + z > Undo
-Ctrl + [ > Move code to left side
-Ctrl + ] > Move code to right side
+Ctrl + Z > Undo
+Shift + Tab | Ctrl + [ > Move code to left side
+Tab | Ctrl + ] > Move code to right side
 Win + .  > Smily window
 <!--Duplicate a line multiple times lines (need to select)-->
 Alt + Shift + ⬇ > Copy and move code to one line down
@@ -36,21 +36,26 @@ Alt + ⬆ > Move line up
 Starting letter of tag + Tab > Automatically open & close tags 
 <!-- If it is 1 line then no need to select just keep ur cursor in that line; Select for multiple lines & then -->
 Ctrl + / > Toggle comments [HTML, CSS, JS] (comment & uncomment)
-Ctrl + d > Select next highlighted & Ctrl + c & Ctrl v
+Ctrl + D > Select next highlighted & Ctrl + C & Ctrl + V
 Win + Arrow keys for parallel screen in Win 10
-Ctrl + d Select whole word & replace it with backspace
-Ctrl+d & ctel+d & ctrl+d then type simueltaneously
-Ctrl + Enter : make cursor to move to next line
+Ctrl + D Select whole word & replace it with backspace
+Ctrl+ D & ctrl + D & ctrl + D then type simueltaneously
+Ctrl + Enter : make cursor to move to next line (below)
+Ctrl + Shift + Enter : Create a new line above
 ul>li*6 : create 6 li tag lines inside one ul tag
 ul>(li+a)*6 : create 6 li in one line & anchor tags in next line to li tag line inside a ul tag
 ul>li*6>a : create 6 li & anchor tags inside a ul tag -> called as 'Emmet'
 (tr>td*18 -rows)*10 - columns in periodic table 10 rows & 18 columns
-
+Alt + Z folds a long line in vs code
+embed means copy the youtube link and merge in our website
 --------
 💡NOTES
 --------
 &nbsp; > means non-breaking space, code for adding one single space in html
 type: 'Lorem' to bring dummy paragraph text
+toggle means on/off
+radio button there is no toggle feature once selected can't be unselect
+But in checkbox select & unselect can be done
 
 ⭐Don't try to remember the code, understand the logic
 
