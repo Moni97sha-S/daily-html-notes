@@ -1,4 +1,36 @@
 ----------------
+25th Apr Topics
+----------------
+⏹ CSS Comments
+⏹ Cascading meaning
+⏹
+⏹
+⏹
+
+----------------
+24th Apr Topics
+----------------
+⏹ Intro to CSS - Cascading Style Sheet
+⏹ How to add CSS
+   - Inline: Highest priority
+   - internal: Medium Priority
+   - External: Lowest Priority; Bootstrap is also CSS from internet
+⏹ Which type of CSS in projects?
+   > Readability
+   > Complexity
+   > Maintain
+   > Reuse
+   > Specificity : Highest, Medium & Lowest
+   > When same tag is used with all 3 CSS for color then system depends on priority; Inline is the quickest one to access
+⏹ Text Properties
+⏹ How to use Google Fonts: Roboto(famous)
+   - We shld not use system font as OS differs from Windows to Mac to Linux
+   - Select regular 400
+   - download family
+   - link (add this link in HTML before style link)
+⏹ Q & A session
+
+----------------
 20th Apr Topics
 ----------------
 ⏹ Remaining HTML tags

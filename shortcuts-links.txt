@@ -5,11 +5,17 @@ HTML Classes content will go here.
 -------
 5th Apr (HTML)
 
-PPT-1:
+HTML-1 PPT-1:
 https://docs.google.com/presentation/d/1QRy1Y8AjWaodD2kkQPKjcOOFXcUi0KAUdE6zg-kDW9s/edit#slide=id.g212e9a1dfda_0_0
 
-PPT-2:
+HTML-2 PPT-2:
 https://docs.google.com/presentation/d/1jAyAEsduMUbPO5PKUFNYpAd3iqxyEd6xv7REANr656k/edit#slide=id.p1
+
+CSS PPT 1:
+
+
+Google Fonts:
+https://fonts.google.com/
 
 Image Placeholder:
 https://placehold.co/
@@ -56,6 +62,7 @@ type: 'Lorem' to bring dummy paragraph text
 toggle means on/off
 radio button there is no toggle feature once selected can't be unselect
 But in checkbox select & unselect can be done
+datalist tag > native autocomplete dropdown feature
 
 ⭐Don't try to remember the code, understand the logic
 
