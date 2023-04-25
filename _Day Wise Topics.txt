@@ -1,11 +1,30 @@
 ----------------
-25th Apr Topics
+25th Apr Topics by Hiral Khakhariya
 ----------------
-⏹ CSS Comments
+⏹ User Interface - the look of the website (HTML & CSS)
+⏹ User Experience- interaction of the website with user (JavaScript)
+⏹ Back-end Development - JS with Node.js
+⏹ In html tags, attributes are giving additional information to entire tag.
+⏹ We always code attribute inside the opening tag.
+⏹ property:text; pairs in CSS
+⏹ Inline CSS Disadvantages: repeat same property-value pair for each & every tags slows down the website speed.
+   > Style act as attribute
+   > On highest priority condition, we use Inline CSS.
+⏹ Internal CSS:
+   - Style act as tag inside which we write internal CSS
+   - No repetition as we call elements by tag name
+   Disadvantages of Internal CSS:
+   - Again slows down the run time as it reads code one line by line
+   - Scrolling long codes creates chaotic for developer
+⏹ External CSS:
+   > link tag used to link once ur CSS file in HTML file (i.e) <link>
+   > rel means relation between css & HTML is StyleSheet (i.e) rel="stylesheet"
+   > type attribute informs HTML page what type of CSS file we are going to attach with HTML (i.e) type="text/css"
+   > href attribute informs path of that CSS file in our system. (i.e) href="style.css"
+⏹ class vary colors for particular tag among same name tags; prefer not to use - while in naming convention instead use _ or 2nd word capitalize 1st letter; called by .
+⏹ id means individual identity; can't give same id repeatedly; is for single element styling; Called by #; prefer not to use - while naming instead use _ or 2nd word capitalize 1st letter
 ⏹ Cascading meaning
-⏹
-⏹
-⏹
+⏹ CSS Comments
 
 ----------------
 24th Apr Topics
