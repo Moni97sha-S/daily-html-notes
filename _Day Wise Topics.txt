@@ -1,4 +1,14 @@
 ----------------
+26th Apr Topics
+----------------
+⏹ In input tag, type="file" is allows use to attach a file like govt. docs
+⏹ 
+⏹
+⏹
+⏹
+⏹
+
+----------------
 25th Apr Topics by Hiral Khakhariya
 ----------------
 ⏹ User Interface - the look of the website (HTML & CSS)
