@@ -48,6 +48,7 @@ https://chat.whatsapp.com/GBacdv15wsVKu1Ll4ugQcb
 -----------
  SHORTCUTS
 -----------
+../ is for adding link of document outside your folder (to come out of your folder)
 Ctrl + Z > Undo
 Shift + Tab | Ctrl + [ > Move code to left side
 Tab | Ctrl + ] > Move code to right side

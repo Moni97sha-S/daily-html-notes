@@ -1,4 +1,25 @@
 ----------------
+1st May Topics
+----------------
+⏹
+⏹
+⏹
+⏹
+⏹
+⏹ Q & A Session
+----------------
+28th Apr Topics
+----------------
+⏹ Breakdown a website into pages
+   - div by default in block level display
+⏹ Descendent Selector: parent tag/class with its child name in css
+⏹ div is a block level element so we need to change display element into flex
+⏹ justtify-content: space-between; > equal spacing between logo, list & icons
+⏹ align-items: center; > vertically items get at center spacing
+⏹ border-radius: 5px; > box's border at corners get rounded
+⏹️ <ul> -- <a> - text-decoration: none; > underline from hyperlinks of anchor tag
+⏹️ <li> - list-style-type: none; > takes off bulletins
+----------------
 26th Apr Topics
 ----------------
 ⏹ In input tag, type="file" is allows use to attach a file like govt. docs
@@ -9,7 +30,7 @@
 ⏹
 
 ----------------
-25th Apr Topics by Hiral Khakhariya
+25th Apr Topics CSS tue 2nd class till fri (next 1 week) by Hiral Khakhariya
 ----------------
 ⏹ User Interface - the look of the website (HTML & CSS)
 ⏹ User Experience- interaction of the website with user (JavaScript)
