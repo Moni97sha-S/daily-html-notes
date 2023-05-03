@@ -1,11 +1,65 @@
 ----------------
-1st May Topics
+3rd May Topics
 ----------------
-⏹
-⏹
-⏹
-⏹
-⏹
+⏹ Difference between display, visibility & opacity
+⏹ Aigning elements
+   - using Text-align (most-commonly used)
+      > if we have block element inside it inline element then use this property
+   - using flex (commonly) | Go through website flexbox playground in codepen
+      > when aligning multiple elements use this property.
+      > can't make ur img outside of the box using this. In that case use position:relative;
+      > display:flex; | always remain in center irrespective of changes in height, width
+      > Responsive web-design for mobiles, tabs etc.
+      > Supporting properties of flex are:
+      > justify-content:right/center/left; | without this img gets left by default
+      > align-items:start/center/end; | without this img gets enlarges
+   - using position properties (rarely)
+      > position: relative is used for parent & absolute is used for child
+      > position: relative is used when img is used outside of the box container.
+      > never use position:relative; for aligning items left & ri8
+      > position:relative; is used only when position:absolute; is used
+⏹ Overflow
+⏹ Selectors
+⏹ paragraph tag doesn't have left right margins by default. It is body's margin.
+⏹ Quiz updates
+⏹ Q & A Session 
+----------------
+2nd May Topics
+----------------
+⏹ CSS Comments
+⏹ Cascading meaning in CSS?
+   - given to same tag elements
+   - Overrides
+   - Whatever property repeats with different value, then the last one that is given 1st priority
+⏹ Box Model [CPBM in that order]
+   - content > Highlighted center 
+   - padding (top, right, bottom & left ) > space between the content and border (inner-space)
+   - border > between padding & margin
+   - margin > space outside of the element/border (outer-space)
+⏹ Display properties
+   - block > Always starts with a new line & as div tag is block level element, it doesn't mean browser automatically add some space like a margin before and after the element
+           > takes 100% width relative to the parent
+   - Inline > takes space according to it's content
+            > padding, width, height will not work properly (overlaps) for inline element
+   - Inline-block > it makes overlaps in aligned manner
+                  > mix of inline & blocks | padding, width & height works properly
+   - flex (layout > nav, header, footer,  + align) / grid (layout)
+⏹ Position properties
+   - static > by default value | (Ri8 Top Bottom Left -TRBL will not work)
+   - relative > relative & absolute always work together | (TRBL will work)
+              > element moves from its original position
+   - absolute > position is related to the parent
+              > TRBL will work, element move relative to the parent (having value relative)
+   - none > hide the content & remove the element space
+   - fixed > position is related to the browser
+           > position is fixed as top-nav bar and top button even we scroll it doesn't move
+           > here TRBL works
+           > element moves relative to the browser
+           > if no TRBL given by default 'go to top' button will be bottom-left out of the browser
+Notes: Relative is for parent & absolute is for child
+       Fixed position is by default outside of the browser window
+
+⏹ CSS - ToolTip
 ⏹ Q & A Session
 ----------------
 28th Apr Topics

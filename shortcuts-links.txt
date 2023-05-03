@@ -32,6 +32,10 @@ https://chrome.google.com/webstore/detail/find-website-used-fonts/lnebjgioddkafa
 Free Formatter:
 https://www.freeformatter.com/html-formatter.html
 
+Flexbox playground: container means parent | items means child
+https://codepen.io/enxaneta/full/adLPwv/
+
+
 Image Placeholder:
 https://placehold.co/
 
@@ -83,11 +87,29 @@ toggle means on/off
 radio button there is no toggle feature once selected can't be unselect
 But in checkbox select & unselect can be done
 datalist tag > native autocomplete dropdown feature
+Scalable Vector Graphics (SVG)
+By default, any elements behaviour is to be at right & top.
 
 ⭐Don't try to remember the code, understand the logic
 
 <hr /> ✅
 <hr>lsjdffsd</hr> ❌
+HTML Comments:
+<!--Single line HTML Comments -->
+<!-- Multiple
+ line 
+ HTML 
+ Comments -->
 
+CSS Comments:
+/* CSS Comments */
+/* Multiple 
+line 
+comments */
+
+ALIGNING ELEMENTS:
+Case 1. If we've parent as block element and child as inline element, and you want to 
+
+CAse 2. If we've 
 VS CODE > Editing
 Browser > Rendering
