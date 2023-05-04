@@ -1,8 +1,18 @@
 ----------------
+4th May Topics
+----------------
+⏹ Selectors
+⏹ Overflow
+⏹ Box shadows
+⏹ Underline on hover
+⏹ Box Model - CPBM
+⏹ Quiz question
+⏹ Q & A session
+----------------
 3rd May Topics
 ----------------
 ⏹ Difference between display, visibility & opacity
-⏹ Aigning elements
+⏹ Aligning elements
    - using Text-align (most-commonly used)
       > if we have block element inside it inline element then use this property
    - using flex (commonly) | Go through website flexbox playground in codepen
@@ -18,8 +28,7 @@
       > position: relative is used when img is used outside of the box container.
       > never use position:relative; for aligning items left & ri8
       > position:relative; is used only when position:absolute; is used
-⏹ Overflow
-⏹ Selectors
+
 ⏹ paragraph tag doesn't have left right margins by default. It is body's margin.
 ⏹ Quiz updates
 ⏹ Q & A Session 
