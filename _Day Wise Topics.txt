@@ -1,4 +1,166 @@
 ----------------
+13th May Topics
+----------------
+⏹️ Selectors
+⏹️ Pseudo Elements:
+   - Pseudo means fake (not real)
+   1. :first-child we should use div's class name followed by <p> tag name when many same <p> tags r thr
+   2. p:nth-of-type(2) means it makes sense of tag name only among <p> tag.
+   3. p:nth-child(2) means it takes 2nd tag on whole div among <span>, <p> regardless of any tag name in between
+⏹️ Pseudo Class
+⏹️ Parallax Effect
+⏹️ Overlay Effect
+⏹️ display:grid
+
+----------------
+10th May Topics
+----------------
+⏹️ Responsive Design (RWD)
+   - Layout: flex layout | 
+   - Mobile responsive min. 400px means min-width:400px; property can be used in every parent div
+   - According to user's screen size our content should adjust without any content loss
+   - As we use pixels in general, we will loose the content if screen size changes. In order to overcome this issue, we use below vw & vh instead of px.
+   <!-- Units -->
+   - 
+   - In order to be flexible, we use vh, vw, vmin etc.
+   - viewport width (vw)
+      > occupy available width & adjustable even when screen size shirnks or enlarges
+   - viewport height (vh)
+   - Note: we should not give display:inline in topnav
+         > Don't give max-width in parent container
+
+⏹️ Media Query
+   - @media screen and (min-width:400px)
+   <!-- properties -->
+   - min-width
+   - min-height
+   - max-width property
+   - max-height property
+   - we can't give more than 1 max-width simply as it overrides.There is some condition
+   - But my req 0 to 400px gives blue; after 400px to 800px gives gray; after 800px gives violet
+⏹️ refer
+   - https://www.w3schools.com/css/css3_mediaqueries_ex.asp
+⏹️
+⏹️
+----------------
+9th May Topics
+----------------
+⏹️ Pseudo-classes | used to access in different states (refer pag 74 in edyoda-css ppt) | it will apply the styles on the special state
+   - :hover
+      > mouse on click it changes
+      > 
+   - :link
+      > when unvisited an anchor tag
+   - :visited
+      > After visited an anchor tag link
+   - :active
+      > when we pressed the link & it starts to run
+⏹️ pseudo elements
+   - content-wise alterations
+   - U can insert content or target particular element.
+      > ::first-line
+      > ::first-letter
+      > ::before
+      > ::after
+⏹️ how to insert cover background-image 
+   - background: url ('https://picsum.photos/40/40') should be along with content:'text'
+⏹️ How to center align vertically for block element?
+⏹️ Hover line-effect using transition, :hover, ::after & ::before
+
+----------------
+8th May Topics
+----------------
+⏹️ Animation shorthand property sequence
+   - animation: name duration timing-function delay direction iteration-count fill-mode play-state;
+⏹️ Animation rules / queries
+   - @keyframes
+      > in each frame by frame our rule works
+⏹️ Animation properties
+   - By default, gets back to original position / origin after animation 
+   - animation-name:ABC;
+      > we should name the animation to connect rules and html elements (tag), class, id etc inside CSS selectors
+   - animation-duration:2s; | without above two property animation won't works
+      > says for how long the animation should work
+   - animation-timing function:ease-in-out | ease-in | ease-out | linear | ease;
+      > we can also control the animation speed curve using this property
+      > ease-in: starts slowly then go faster
+      > ease-out: starts fastly then turns into slowly
+      > ease-in-out: combination of above both values
+   - animation-delay: 2s;
+      > It delays the animation by 2 seconds.
+   - animation-direction:alternate / reverse;
+      > Assume that from (0%) we give bg-color as blue & in 100% complete to we give bg-color as coral
+      > alternate means blue to coral, coral to blue etc.
+      > reverse means starts from 100% to 0% like coral to blue
+   - animation-iteration-count: 3 or infinite; 
+      > work as loop
+      > tells how many times animation should run
+   - animation-fill-mode: forwards; | we can see animation stops at coral bg-color not in white bg-color
+      > let's say we want to stay in the last state of animation
+      > we need to stop from default reaching its default origin for that purpose we use this property
+   - animation-play-state: paused;
+      > used to pause/stops an animation state while hovering means mouse on div
+      > when we remove it resumes/starts continuing animation
+   - transform:rotateZ('angle');
+      > (inside rule under from)
+      > element rotates along with Z axis
+      > used to rotate along with Z-axis with bg-color change in below example
+      > | rotateY | rotateZ | rotate3d
+⏹️ w3schools website ref | infinte means runs continously without stopping like loop
+   - div{
+      background-color:red;
+      /* animation-properties */
+      animation-name:abc;
+      animation-duration: infinite;
+     }
+     div:hover{
+      animation-play-state:paused;
+     }
+     /* animation-rules */
+     @keyframes abc{
+      from{
+         background-color:green;
+         transform:rotateZ(0deg); /* starts from 0 degrees */
+      }
+      to{
+         background-color:blue;
+         transform:rotateZ(180deg); /* ends in 180 degrees */
+
+      }
+     }
+
+----------------
+6th May Topics
+----------------
+⏹️ Background
+⏹️ Gradients
+⏹️ Transition
+⏹️ Animation
+⏹️ after & before
+⏹️ CSS Practice
+⏹️ Q & A Session
+----------------
+5th May Topics
+----------------
+⏹️ Challenge: https://community.edyoda.com/t/welcome-to-the-visionary-challenge-for-fullstack-program/4958
+⏹️ Assignment discussion
+   - Favicon is used to display near title of file name
+   - div class=container is given for wrap the different content in one division
+   - To make the whole content in the center even when we ctrl- also.
+   - Table can't take transitions and animations.
+   - Responsive > Mobile first approach (in code 1st banner pic & then content)
+   - Class can have 2 classnames
+   - To bring a div has some width in order to bring center given margin:0 auto; for this only we given container class
+⏹️ Box-sizing
+   - box-sizing: border-box; inside Universal Selector
+   - In above property, width & height is same & padding will adjust within given width
+   - padding: 0 50px (TB LR); + width:100%
+   - padding + width makes overflows of text & horizontal scrollbar is added 
+   - padding + width = Actual width of this p becomes widht: 100% + 100px; (50px for left & 50px for right) 
+   - so in order to overcome this problem consider above when padding is within the width
+⏹️ Q & A Session
+
+----------------
 4th May Topics
 ----------------
 ⏹ Selectors
@@ -13,21 +175,22 @@
 ----------------
 ⏹ Difference between display, visibility & opacity
 ⏹ Aligning elements
-   - using Text-align (most-commonly used)
-      > if we have block element inside it inline element then use this property
-   - using flex (commonly) | Go through website flexbox playground in codepen
-      > when aligning multiple elements use this property.
-      > can't make ur img outside of the box using this. In that case use position:relative;
-      > display:flex; | always remain in center irrespective of changes in height, width
-      > Responsive web-design for mobiles, tabs etc.
-      > Supporting properties of flex are:
-      > justify-content:right/center/left; | without this img gets left by default
-      > align-items:start/center/end; | without this img gets enlarges
-   - using position properties (rarely)
-      > position: relative is used for parent & absolute is used for child
-      > position: relative is used when img is used outside of the box container.
-      > never use position:relative; for aligning items left & ri8
-      > position:relative; is used only when position:absolute; is used
+   📌 using Text-align (most-commonly used)
+      💡 if we have block element inside it inline element then use this property
+   📌 using flex (commonly) | Go through website flexbox playground in codepen
+      💡 when aligning multiple elements use this property.
+      💡 can't make ur img outside of the box using this. In that case use position:relative;
+      💡 display:flex; | always remain in center irrespective of changes in height, width
+      💡 Responsive web-design for mobiles, tabs etc.
+      💡 Supporting properties of flex are:
+      💡 justify-content:right/center/left; | without this img gets left by default
+      💡 align-items:start/center/end; | without this img gets enlarges
+   📌 using position properties (rarely)
+      💡 position: relative is used for parent & absolute is used for child
+      💡 position: relative is used when img is used outside of the box container.
+      💡 never use position:relative; for aligning items left & ri8
+      💡 position:relative; is used only when position:absolute; is used
+      💡 can't make ur img outside of the box using this. In that case use position:relative;
 
 ⏹ paragraph tag doesn't have left right margins by default. It is body's margin.
 ⏹ Quiz updates
@@ -37,34 +200,34 @@
 ----------------
 ⏹ CSS Comments
 ⏹ Cascading meaning in CSS?
-   - given to same tag elements
-   - Overrides
-   - Whatever property repeats with different value, then the last one that is given 1st priority
+   📍 given to same tag elements
+   📍 Overrides
+   📍 Whatever property repeats with different value, then the last one that is given 1st priority
 ⏹ Box Model [CPBM in that order]
-   - content > Highlighted center 
-   - padding (top, right, bottom & left ) > space between the content and border (inner-space)
-   - border > between padding & margin
-   - margin > space outside of the element/border (outer-space)
+   📍 content ✅ Highlighted center 
+   📍 padding (top, right, bottom & left ) ✅ space between the content and border (inner-space)
+   📍 border ✅ between padding & margin
+   📍 margin ✅ space outside of the element/border (outer-space)
 ⏹ Display properties
-   - block > Always starts with a new line & as div tag is block level element, it doesn't mean browser automatically add some space like a margin before and after the element
-           > takes 100% width relative to the parent
-   - Inline > takes space according to it's content
-            > padding, width, height will not work properly (overlaps) for inline element
-   - Inline-block > it makes overlaps in aligned manner
-                  > mix of inline & blocks | padding, width & height works properly
-   - flex (layout > nav, header, footer,  + align) / grid (layout)
+   📍 block ✅ Always starts with a new line & as div tag is block level element, it doesn't mean browser automatically add some space like a margin before and after the element
+           ✅ takes 100% width relative to the parent
+   📍 Inline ✅ takes space according to it's content
+            ✅ padding, width, height will not work properly (overlaps) for inline element
+   📍 Inline-block ✅ it makes overlaps in aligned manner
+                  ✅ mix of inline & blocks | padding, width & height works properly
+   📍 flex (layout ✅ nav, header, footer,  + align) / grid (layout)
 ⏹ Position properties
-   - static > by default value | (Ri8 Top Bottom Left -TRBL will not work)
-   - relative > relative & absolute always work together | (TRBL will work)
-              > element moves from its original position
-   - absolute > position is related to the parent
-              > TRBL will work, element move relative to the parent (having value relative)
-   - none > hide the content & remove the element space
-   - fixed > position is related to the browser
-           > position is fixed as top-nav bar and top button even we scroll it doesn't move
-           > here TRBL works
-           > element moves relative to the browser
-           > if no TRBL given by default 'go to top' button will be bottom-left out of the browser
+   📍 static ✅ by default value | (Ri8 Top Bottom Left - TRBL will not work)
+   📍 relative ✅ relative & absolute always work together | (TRBL will work)
+              ✅ element moves from its original position
+   📍 absolute ✅ position is related to the parent
+              ✅ TRBL will work, element move relative to the parent (having value relative)
+   📍 none ✅ hide the content & remove the element space
+   📍 fixed ✅ position is related to the browser
+           ✅ position is fixed as top-nav bar and top button even we scroll it doesn't move
+           ✅ here TRBL works
+           ✅ element moves relative to the browser
+           ✅ if no TRBL given by default 'go to top' button will be bottom-left out of the browser
 Notes: Relative is for parent & absolute is for child
        Fixed position is by default outside of the browser window
 
@@ -77,7 +240,7 @@ Notes: Relative is for parent & absolute is for child
    - div by default in block level display
 ⏹ Descendent Selector: parent tag/class with its child name in css
 ⏹ div is a block level element so we need to change display element into flex
-⏹ justtify-content: space-between; > equal spacing between logo, list & icons
+⏹ justify-content: space-between; > equal spacing between logo, list & icons
 ⏹ align-items: center; > vertically items get at center spacing
 ⏹ border-radius: 5px; > box's border at corners get rounded
 ⏹️ <ul> -- <a> - text-decoration: none; > underline from hyperlinks of anchor tag
@@ -163,7 +326,7 @@ Notes: Relative is for parent & absolute is for child
     - Video tag
     - iframe tag
 ⏹ Assignment 2 discussion
-   - div tag to group big & span tag is used to small in that big
+   - div tag to group big & span tag is used to group small in that big
 ⏹
 ⏹ Q & A Session
 
@@ -283,7 +446,7 @@ radio, checkbox,
 ⏹ HTML Comments > <!-- _____ --> reference to the developer, unused code
 ⏹ HTML Features from PPT-1: In css, (SVG) Scalable Vector Graphic images are crisp, clear & sharp 
    even after zoom than .png, .jpg etc used mostly in logos.
-                  <!-- HTML 5 tags -  Older version of HTML tags -->
+                  <!-- HTML 5 tags are not  Older version of HTML tags -->
 ⏹ HTML semantic tags: <header> - <div class ="header">, 
                        <nav> - <div id ="menu">, 
                        <article> - <div class ="post"> & 

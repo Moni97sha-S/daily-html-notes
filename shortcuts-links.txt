@@ -16,6 +16,9 @@ https://docs.google.com/presentation/d/1jAyAEsduMUbPO5PKUFNYpAd3iqxyEd6xv7REANr6
 CSS PPT 1:
 https://docs.google.com/presentation/d/1Mp-Sver-5SLI5YpKD3-oJd_JfcEwCKKFzPgi60PeWGU/edit?usp=sharing
 
+CSS Notes links:
+https://codepen.io/patilsagar99047/pen/GRYWJyd
+
 ColorpickerEyeDropper (Extension):
 https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en
 
@@ -83,35 +86,44 @@ embed means copy the youtube link and merge in our website
 --------
 💡NOTES
 --------
-&nbsp; > means non-breaking space, code for adding one single space in html
-type: 'Lorem' to bring dummy paragraph text
-toggle means on/off
-radio button there is no toggle feature once selected can't be unselect
-But in checkbox select & unselect can be done
-datalist tag > native autocomplete dropdown feature
-Scalable Vector Graphics (SVG)
-By default, any elements behaviour is to be at right & top.
+✌ &nbsp; > means non-breaking space, code for adding one single space in html
+✌ type: 'Lorem' to bring dummy paragraph text
+✌ toggle means on/off
+✌ radio button there is no toggle feature once selected can't be unselect
+✌ But in checkbox select & unselect can be done
+✌ datalist tag > native autocomplete dropdown feature
+✌ Scalable Vector Graphics (SVG)
+✌ By default, any elements behaviour is to be at right & top.
+✌ 100vh; vh means viewport height
+✌ 100px; px means pixels
 
 ⭐Don't try to remember the code, understand the logic
 
-<hr /> ✅
-<hr>lsjdffsd</hr> ❌
-HTML Comments:
+📢 NO CLOSING TAGS:
+<input> & <img>
+
+📢 EMPTY TAGS:
+<hr /> ✅, <br />
+<hr>lsjdffsd</hr> ❌ | / stands for closure
+
+📢 HTML Comments:
 <!--Single line HTML Comments -->
 <!-- Multiple
  line 
  HTML 
  Comments -->
 
-CSS Comments:
+📢 CSS Comments:
 /* CSS Comments */
 /* Multiple 
 line 
 comments */
 
-ALIGNING ELEMENTS:
+📢 ALIGNING ELEMENTS:
 Case 1. If we've parent as block element and child as inline element, and you want to 
 
 CAse 2. If we've 
+
+📢 Purpose:
 VS CODE > Editing
 Browser > Rendering
