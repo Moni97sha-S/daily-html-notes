@@ -40,6 +40,13 @@ https://www.freeformatter.com/html-formatter.html
 Flexbox playground: container means parent | items means child
 https://codepen.io/enxaneta/full/adLPwv/
 
+Javascript (implicit & explicit practice):
+https://betterprogramming.pub/implicit-and-explicit-coercion-in-javascript-b23d0cb1a750
+
+Javascript Reference:
+https://www.youtube.com/watch?v=pN6jk0uUrD8&list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP
+
+https://www.youtube.com/watch?v=hdI2bqOjy3c&ab_channel=TraversyMedia
 
 Image Placeholder:
 https://placehold.co/
@@ -48,11 +55,17 @@ Portfolio:
 https://justdecodeme.github.io/portfolio/
 
 Class Files:
-https://github.com/justdecodeme/edyoda-classes/tree/master/FSR310323
+1) HTML & CSS
+https://github.com/justdecodeme/edyoda-classes/tree/master/FSR310323 
+
+2) JS
+https://github.com/Thangarajcs/js-notes/
 
 Whatsapp Group: 
 https://chat.whatsapp.com/GBacdv15wsVKu1Ll4ugQcb
 
+Assignment:
+https://codepen.io/qaifikhan/pen/XWpreem?editors=0012
 
 -----------
  SHORTCUTS

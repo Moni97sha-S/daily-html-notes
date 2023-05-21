@@ -569,3 +569,31 @@ shortcut: Alt + ⬆ (move a line up)
 
 Filename extensions: resume.pdf, song1.mp3, movie1.mp4
 .jpg, .png, .txt, .cpp, .docx, .exe, .psd, .ai,
+
+Date: 20.05.2023 sat session by TA
+Properties
+1) Backgroung 
+background-image
+2) Overflow
+For overflow to work we need to give width & height sometimes margin.
+   - Overflow: hidden; This hides rest of img & takes only img size. cropped
+   - Overflow: scroll; remaining space is scroll & see using scroll bar
+   - Overflow: auto; means height is fulfill then overflow works which depends on image size.
+   - Overflow:visible; means normal visibility
+3) Transform 
+It means change or tranformation
+For transform to work we need to give width, height & on hover-effect only it works with random text to check if it works or not.
+sometimes margin: 0 auto to bring it center,  background-color & 
+display:flex, justify-content:center & align-items:center;
+   - deg
+   - tansform:rotateX(60deg), rotateY(180deg);
+   - rotate: rotates the item
+   - skew: it tilts the item on different axes, values -> deg
+   - translate: used to shift the element in xy plane by providing values in pixel.
+   - scale:used to zoom in/out effect
+4) translate:    - translate: used to position shift of the element in xy plane by providing values in pixel (both +ve & -ve).
+   - translate: 50px 100px -150px;
+
+5) Responsive Web Design (RwD)
+Web pages changes according to our screen size.
+
