@@ -572,7 +572,7 @@ Filename extensions: resume.pdf, song1.mp3, movie1.mp4
 
 Date: 20.05.2023 sat session by TA
 Properties
-1) Backgroung 
+1) Background
 background-image
 2) Overflow
 For overflow to work we need to give width & height sometimes margin.
@@ -591,7 +591,8 @@ display:flex, justify-content:center & align-items:center;
    - skew: it tilts the item on different axes, values -> deg
    - translate: used to shift the element in xy plane by providing values in pixel.
    - scale:used to zoom in/out effect
-4) translate:    - translate: used to position shift of the element in xy plane by providing values in pixel (both +ve & -ve).
+4) translate:    
+   - translate: used to position shift of the element in xy plane by providing values in pixel (both +ve & -ve).
    - translate: 50px 100px -150px;
 
 5) Responsive Web Design (RwD)
