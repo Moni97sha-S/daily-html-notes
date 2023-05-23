@@ -55,10 +55,13 @@ Portfolio:
 https://justdecodeme.github.io/portfolio/
 
 Class Files:
-1) HTML & CSS
+0) Doubt clarification TA - Athira
+https://github.com/Athiras231996/FSR310323Js
+
+1) HTML & CSS - Rakesh
 https://github.com/justdecodeme/edyoda-classes/tree/master/FSR310323 
 
-2) JS
+2) JS - Mayilsamy Thangaraj
 https://github.com/Thangarajcs/js-notes/
 
 Whatsapp Group: 
