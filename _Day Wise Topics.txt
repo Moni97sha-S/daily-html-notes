@@ -10,7 +10,57 @@
 ⏹️ Pseudo Class
 ⏹️ Parallax Effect
 ⏹️ Overlay Effect
-⏹️ display:grid
+⏹️ display:grid Properties are: (w3schools)
+      - display:grid => to make a block-level grid container
+      - display:inline-grid => to make a inline grid container
+         > vertical lines of grid items are called columns.
+         > horizontal lines of grid items are called rows.
+         > The spaces between each column/row are called gaps.
+      - place-items:center;
+      Grid Gaps
+      - column-gap: 50px; =>  gap between columns
+      - row-gap: 50px; =>  gap between rows
+      - 🤏 SHORTHAND PROPERTY 🤏 
+            > gap: row-gap column-gap;
+            > gap: 50px 100px;
+            > gap: 10px; 
+               => to set both the row gap and the column gap in one value
+               => gap between items rows & columns
+      Grid lines
+            > The lines between columns are called column lines.
+            > The lines between rows are called row lines.
+            > Refer to line numbers when placing a grid item in a grid container
+      - grid-column-start: 1;
+      - grid-column-end: 3;
+      - grid-row-start: 1;
+      - grid-row-end: 3;
+       Note: end means before 3rd (2nd row/col) not exact 3rd row/col.
+             span means exact 3rd rol/col.
+      Container:-
+      - grid layout includes template-areas in container & area in items:>
+         > grid-template-areas: myArea myArea myArea myArea myArea; => We refer to the name when you set up the grid layout, by using the grid-template-areas property on the grid container.
+         > Each row is defined by apostrophes (' '). The columns in each row is defined inside the apostrophes, separated by a space.
+         > grid-template-areas:'myArea myArea . . .'; => Item1, is called "myArea" and will take up only the place of two columns (out of five)
+         > grid-template-areas: 'myArea myArea . . .' 'myArea myArea . . .'; => Item1, is called "myArea" and will take up the place of two columns (out of five), and will span two rows.
+      - grid-template-columns: auto auto auto auto auto ......; => defines the width of each column
+      - grid-template-rows: auto auto auto auto auto ......; => defines the height of each row
+      - justify-content:space-evenly | center; 
+            => The grid's total width < container's width for the justify-content property to have any effect. 
+            => to align the whole grid inside the container.
+      - align-content: center; 
+            => to vertically align the whole grid inside the container. 
+            => The grid's total height < container's height for the align-content property to have any effect.
+      Note: Here padding works like border
+
+      Items:-
+      - grid-template-columns: auto auto auto auto auto ......; => To place 5 or more items in a container
+      - grid-row/column: 2/span 3; => Item2 will start on column-line 1 and till span 3 columns merges
+      - grid-row/column: 1 / 5; => Item1 will start on column 1 and end before column 5
+      - 🤏 SHORTHAND PROPERTY 🤏 
+         > grid-area: grid-row-start grid-column-start grid-row-end grid-column-end;
+         > grid-area: 1 / 2 / 5 / span 6;
+         > grid-area: myArea; => to name grid items.
+      - grid-column-items:
 
 ----------------
 10th May Topics
@@ -583,6 +633,9 @@ For overflow to work we need to give width & height sometimes margin.
 3) Transform 
 It means change or tranformation
 For transform to work we need to give width, height & on hover-effect only it works with random text to check if it works or not.
+It's properties are:
+   > tranform-style: preserve-3d; 
+   > perspective:1000px; => zoom-in-low value | zoom-out-high value
 sometimes margin: 0 auto to bring it center,  background-color & 
 display:flex, justify-content:center & align-items:center;
    - deg
