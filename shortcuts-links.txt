@@ -64,6 +64,9 @@ https://github.com/justdecodeme/edyoda-classes/tree/master/FSR310323
 2) JS - Mayilsamy Thangaraj
 https://github.com/Thangarajcs/js-notes/
 
+https://kandi.openweaver.com/?landingpage=javascript_all_projects&landingpage=javascript&utm_campaign=paid_search_productcapability_javascript&utm_medium=cpc&utm_source=google&utm_term=javascript_all_project&utm_content=code&gclid=Cj0KCQjw0oyYBhDGARIsAMZEuMuvCISOUwDa9pQnGzEuFKImub-ALGtegayso29EqSrbsm3ewiTwTZwaAhrtEALw_wcB
+
+
 Whatsapp Group: 
 https://chat.whatsapp.com/GBacdv15wsVKu1Ll4ugQcb
 
@@ -103,10 +106,13 @@ ul>(li+a)*6 : create 6 li in one line & anchor tags in next line to li tag line 
 ul>li*6>a : create 6 li & anchor tags inside a ul tag -> called as 'Emmet'
 (tr>td*18 -rows)*10 - columns in periodic table 10 rows & 18 columns
 Alt + Z folds a long line in vs code
-embed means copy the youtube link and merge in our website
+javascript:
+CTRL+/ => SINGLE line comment using '//'
+ALT + SHIFT + A => Multiple line comment using '/* */'
 --------
 💡NOTES
 --------
+✌embed means copy the youtube link and merge in our website
 ✌ &nbsp; > means non-breaking space, code for adding one single space in html
 ✌ type: 'Lorem' to bring dummy paragraph text
 ✌ toggle means on/off
